@@ -1,6 +1,6 @@
 # AttnSeq-PPI
 ## Description
-We propose AttnSeq-PPI, a deep-learning-based protein-protein interaction(PPI) prediction method, which leverages protein sequence word2vec embeddings with combined self and cross attention, 1-D convolution and max pooling operation.
+AttnSeq-PPI is a deep-learning-based protein-protein interaction(PPI) prediction method, which leverages protein sequence word2vec embeddings with combined self and cross attention, 1-D convolution and max pooling operation.
 
 ## Requirements
 - gensim==4.3.0
