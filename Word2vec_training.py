@@ -14,8 +14,10 @@ def w2v_model_train(dataset_path, model_out_path, k_mer = 4, vector_size = 128, 
     model = word2vec.Word2Vec(k_mers_list, vector_size = vector_size, min_count = 1, window = window_size, epochs=iteration, sg = 1)
     os.makedirs(model_out_path, exist_ok = True)
     model.save(model_out_path + "/word2vec_model.pt")
+    
 ############ Dataset and model out path ###################################################################
 dataset_path = r""
 model_out_path = r""
 ###########################################################################################################
+
 w2v_model_train(dataset_path=dataset_path, model_out_path=model_out_path)
