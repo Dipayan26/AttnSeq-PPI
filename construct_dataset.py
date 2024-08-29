@@ -3,7 +3,6 @@ import torch.utils.data as data
 import numpy as np
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ##################################################################################################
-
 def protein_matrix_mask(prot_seq_1, prot_seq_2, seq_encoding, seq_encoding_max_len, window, stride, k_mer):
     protein_seq_1 = seq_encoding[prot_seq_1]
     protein_seq_2 = seq_encoding[prot_seq_2]

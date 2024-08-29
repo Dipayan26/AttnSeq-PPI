@@ -5,7 +5,6 @@ import numpy as np
 import warnings
 warnings.simplefilter('ignore')
 import numpy as np
-#device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ###################################################################################################################
 class MultiHeadselfAttention(nn.Module):

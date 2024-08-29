@@ -26,7 +26,7 @@ class MultiHeadselfAttention(nn.Module):
         output = output.transpose(1, 2).contiguous().view(batch_size, -1, self.heads * self.dim)
         output = self.out_dense(output)
         return output + Q_skip_conn
-
+    
 class MultiHeadcrossAttention(nn.Module):
     def __init__(self, in_dim1, in_dim2, heads, dim_of_d):
         super(MultiHeadcrossAttention, self).__init__()
@@ -52,7 +52,6 @@ class MultiHeadcrossAttention(nn.Module):
         output = output.transpose(1, 2).contiguous().view(batch_size, -1, self.heads * self.dim)
         output = self.out_dense(output)
         return output + Q_skip_conn
-    
     
 class conv_layers(nn.Module):
     def __init__(self, conv_in, conv_out, kernel_sz, stride, pooling = True, dropout = 0.5):
