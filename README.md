@@ -10,3 +10,9 @@ Complete workflow of AttnSeq‑PPI.
 -
 
 ![Figure_2-01](https://github.com/user-attachments/assets/e6812e75-7c54-4941-8785-3aaba887e29f)
+
+
+🌐 Web Tool
+-
+An online GUI version with pairwise and network prediction as well as interactive visualisation is freely available at:
+https://compbiosysnbu.in/attnseqppi/
