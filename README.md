@@ -16,3 +16,11 @@ Complete workflow of AttnSeq‑PPI.
 -
 An online GUI version with pairwise and network prediction as well as interactive visualisation is freely available at:
 https://compbiosysnbu.in/attnseqppi/
+
+License
+-
+This project is distributed under the MIT License. See LICENSE for details.
+
+Contac
+-
+For questions, feel free to open an issue or contact Dipayan Sarkar (dipayansarkar26@gmail.com).
