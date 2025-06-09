@@ -1,0 +1,7 @@
+matplotlib==3.8.3
+numpy==1.24.3
+pandas==2.3.0
+scikit_learn==1.7.0
+torch==2.2.0+cu121
+torch==2.2.2
+transformers==4.49.0
