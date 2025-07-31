@@ -1,6 +1,6 @@
 #########################################################################
 '''
-Author:        Dipayan <your_email@domain>
+Author:        Dipayan <dipayansarkar26@gmail.com>
 Last updated:  2025-06-10
 Licence:       MIT (see LICENCE file)
 Description:  This script implements a 5-fold cross-validation for a protein-protein interaction prediction model using HYBRID attention. It includes data preprocessing, model training, evaluation, and visualization of intermediate layers using t-SNE.
