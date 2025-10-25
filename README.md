@@ -32,3 +32,9 @@ Computational Systems Biology Lab
 Department of Bioinformatics
 
 Email: dipayansarkar26@gmail.com
+
+
+Publication
+-
+Please cite this article as: D. Sarkar and C. Sarkar, AttnSeq-PPI: Enhancing proteinprotein interaction network prediction using transfer learning-driven hybrid attention, BBA
+- Proteins and Proteomics (2024), https://doi.org/10.1016/j.bbapap.2025.141102
