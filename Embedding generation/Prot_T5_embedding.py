@@ -1,5 +1,5 @@
 '''
-Author:        Dipayan <your_email@domain>
+Author:        Dipayan
 Last updated:  2025-06-10
 Licence:       MIT (see LICENCE file)
 Description:  This script loads the ProtT5 model and tokenizer, processes protein sequences from a CSV file, computes their embeddings, and saves the embeddings to a .pth file.
